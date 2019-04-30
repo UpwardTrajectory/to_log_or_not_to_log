@@ -43,8 +43,8 @@ def mystery_scatter(n=100, var=200, random=False):
     plt.title('Linear')
     
     plt.suptitle('Mystery Challenge: \nOne of these is Exponential, one is Power, \nand the other is Quadratic, but which is which?')
-    plt.show()
     plt.savefig('mystery_growth.png')
+    plt.show()
     plt.close()
     
     df = pd.DataFrame([x, y1, y2, y3, y4]).T
